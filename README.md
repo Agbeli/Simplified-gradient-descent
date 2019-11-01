@@ -11,7 +11,9 @@ Optimization technique: Implementation of Gradient descent from scratch.
   - Number of iteration 
   - learning rate $\alpha$
 
-<img src="https://latex.codecogs.com/svg.latex?\Large&space;h_{\theta}(x) = \sum_{i=0}^{m} \theta_{i}x_{i} = \theta^{T}X" title="\Large h_{\theta}(x) = \sum_{i=0}^{m} \theta_{i}x_{i} = \theta^{T}X" />
+[function](function.png)
+
+$$h_{\theta}(x) = \sum_{i=0}^{m} \theta_{i}x_{i} = \theta^{T}X$$
 
 - We set the bias also know intercept to $x_{0}=1$.  <br>
 
