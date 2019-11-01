@@ -38,5 +38,6 @@ $$\theta_{k} := \theta_{k-1} + \dfrac{\alpha}{m}\sum_{i=1}^{m}(y^{(i)}-h_{\theta
 To this data, we had to select five features to demonstrate how the gradient work. In most cases we have scale the dataset but in our case we did not scale features since we want to illustrate how to implement the gradient descent from the scratch. We observed that the appropriate learning is $\alpha = e^{-5}$  but for the number of iteration it depends on the number of times you want to train the parameters in order to have better estimate of the weights which can minimize the cost estimate of the model. 
 
 - We initialize the weights using the normal distribution rather than setting the parameters to zeros. 
+<img src="https://latex.codecogs.com/svg.latex?\Large&space;x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}" title="\Large x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}" />
 
 Here is the source: [Reference](http://cs229.stanford.edu/notes2019fall/cs229-notes1.pdf)
